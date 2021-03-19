@@ -99,7 +99,7 @@ export function Home() {
 								<button
 									className="delete"
 									onClick={() => deleteTask(index)}>
-									x
+									<i className="fas fa-trash" />
 								</button>
 							</li>
 						))}
